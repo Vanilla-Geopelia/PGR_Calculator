@@ -38,7 +38,7 @@ int main(){
 	printf("\n请核对信息哟~~\n选手名字：");
 	puts(p_name);
 	printf("\n游玩游戏：Phigros");
-	if(game == 0 and pgr_yp == 1)
+	if(game == 0 && pgr_yp == 1)
 	    printf("[严判模式]");
 	printf("\n曲目定数：%.1lf\n本次分数：%d\n本次ACC%：%.2lf%c\n选手rks：%.2lf",song_score,(int)p1_score,p1_acc,'%',p_rks);
 	
