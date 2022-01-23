@@ -51,4 +51,4 @@ elif(pgr_yp == 0):
 
 rscore = str(rscore)
 
-print("\n小鸽子，你的最终分数出来啦~！\n你的最终分数是："+rscore+"\n继续加油哟~");
+print("\n小鸽子，你的最终分数出来啦~！\n你的最终分数是："+rscore+"\n继续加油哟~")
