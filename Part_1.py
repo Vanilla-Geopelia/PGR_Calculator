@@ -45,9 +45,9 @@ p_rks = float(p_rks)
 p1_score = float(p1_score)
 
 if(pgr_yp == 1):
-    rscore = math.log(p1_score/100.00*p1_acc*1000000) / p_rks / 0.40
+    rscore = math.log(song_score/100.00*p1_acc*1000000) / p_rks / 0.40
 elif(pgr_yp == 0):
-    rscore = math.log(p1_score/100.00*p1_acc*1000000) /p_rks / 0.80
+    rscore = math.log(song_score/100.00*p1_acc*1000000) /p_rks / 0.80
 
 rscore = str(rscore)
 
